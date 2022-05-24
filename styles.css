@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 2em;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#card {
+  width: 32rem;
+  height: 49.7rem;
+  background: #ffffff;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.qr-code {
+  width: 28.8rem;
+  height: 28.8rem;
+  margin-top: 1.6rem;
+  border-radius: 1rem;
+}
+
+.text {
+  padding: 2.2rem 3rem;
+}
+
+.skills-text {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+  padding-bottom: 1.5rem;
+}
+
+.scan-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--grayish-blue);
+  padding-bottom: 1.5rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.019rem;
+}
